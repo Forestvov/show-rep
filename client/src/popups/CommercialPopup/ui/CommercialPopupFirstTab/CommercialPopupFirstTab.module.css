@@ -1,0 +1,26 @@
+.tab {
+	display: none;
+	margin-top: 29px;
+
+	&.show {
+		display: block;
+	}
+}
+
+.row {
+	@apply grid text-[15px];
+
+	grid-template-columns: 191px 1fr;
+	align-items: center;
+	padding-bottom: 12px;
+	border-bottom: 1px solid rgb(228 228 228 / 0.6);
+	line-height: 24px;
+
+	&:last-child {
+		border: none;
+	}
+
+	& + & {
+		margin-top: 18px;
+	}
+}

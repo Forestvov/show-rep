@@ -1,0 +1,27 @@
+.footer {
+	&__top {
+		display: grid;
+		grid-template-columns: 499px 498px;
+		grid-column-gap: 14px;
+		margin-bottom: 31px;
+	}
+
+	&__bottom {
+		@apply flex-center-between;
+
+		padding-top: 18px;
+		padding-bottom: 16px;
+		border-top: 1px solid #e5e8ef;
+
+		a,
+		span {
+			@apply text-[15px] text-black-900;
+
+			line-height: 24px;
+		}
+
+		&.mb {
+			padding-bottom: 140px;
+		}
+	}
+}

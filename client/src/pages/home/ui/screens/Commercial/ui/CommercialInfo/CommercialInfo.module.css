@@ -1,0 +1,28 @@
+.info {
+	@apply relative bg-gold-200;
+
+	overflow: hidden;
+	height: 92px;
+	padding-top: 26px;
+	padding-left: 28px;
+	border-radius: 8px;
+
+	&__title {
+		@apply font-semibold text-black-800 text-[16px];
+
+		margin-bottom: 9px;
+		line-height: 16px;
+	}
+
+	&__text {
+		@apply text-black-800 text-[16px];
+
+		line-height: 16px;
+	}
+
+	&__icon {
+		position: absolute;
+		top: 0;
+		right: 131px;
+	}
+}

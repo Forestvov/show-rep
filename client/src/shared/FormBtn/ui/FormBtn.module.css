@@ -1,0 +1,19 @@
+.btn {
+	@apply text-[15px];
+
+	height: 50px;
+	border: 1.4px solid #ececec;
+	border-radius: 9px;
+	line-height: 46px;
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		border-color: #1036a5;
+	}
+
+	&.active {
+		border-color: #1036a5;
+		background: #ebf0fe;
+		box-shadow: 0 8px 8px -4px rgb(29 103 208 / 0.08), 0 4px 6px -4px rgb(29 103 208 / 0.12);
+	}
+}

@@ -1,0 +1,15 @@
+.content {
+	margin-top: -1px;
+	border-top: 1px solid #e4e4e4;
+}
+
+.slideImage {
+	position: relative;
+	height: 185px;
+
+	> img {
+		@apply block image-like-bg;
+
+		border-radius: 12px;
+	}
+}

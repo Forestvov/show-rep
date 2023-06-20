@@ -1,0 +1,15 @@
+.status {
+	@apply inline-block text-[12px] text-gray-200;
+
+	height: 20px;
+	padding: 0 8px;
+	border: 1px solid #e7e7e7;
+	border-radius: 18px;
+	line-height: 18px;
+
+	&.balance {
+		@apply border-green-200 text-green-500;
+
+		background-color: #f2fcf2;
+	}
+}

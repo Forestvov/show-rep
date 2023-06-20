@@ -1,0 +1,14 @@
+.contact {
+	margin-right: 40px;
+
+	&__label {
+		@apply text-[14px];
+
+		margin-bottom: 2px;
+		color: #b4bfc2;
+	}
+
+	&__phone {
+		@apply text-[16px] font-semibold;
+	}
+}

@@ -1,0 +1,76 @@
+.form {
+    width: 540px;
+    height: 600px;
+    padding: 49px 26px 60px;
+    border: 1px solid #101f95;
+    border-radius: 22px;
+    background: linear-gradient(127.81deg, rgb(29 45 168 / 0.1) 10.56%, rgb(7 23 137 / 0.1) 101.21%);
+
+    &__name {
+        @apply text-white font-bold text-[26px] text-center;
+
+        margin-bottom: 34px;
+    }
+
+    &__email {
+        margin-bottom: 16px;
+    }
+
+    &__password {
+        margin-bottom: 24px;
+    }
+
+    &__next {
+        @apply block w-full text-white text-[15px] font-semibold;
+
+        margin-bottom: 28px;
+        border-radius: 8px;
+        background-color: #d8c195;
+        line-height: 56px;
+    }
+
+    &__restore {
+        @apply flex-center-center text-white text-[15px] font-semibold;
+
+        margin: 0 auto 25px;
+
+        svg {
+            margin-right: 6px;
+        }
+    }
+
+    &__or {
+        @apply relative text-center text-white text-[15px] font-medium;
+
+        margin-bottom: 31px;
+        color: #9ba7ff;
+
+        &::before,
+        &::after {
+            @apply transform-y-center;
+
+            content: '';
+            position: absolute;
+            width: 210px;
+            height: 1px;
+            background-color: #101f95;
+        }
+
+        &::before {
+            left: 0;
+        }
+
+        &::after {
+            right: 0;
+        }
+    }
+
+    &__register {
+        @apply text-white text-[15px] font-semibold text-center;
+
+        display: block;
+        border-radius: 8px;
+        background: rgb(20 36 163 / 0.8);
+        line-height: 55px;
+    }
+}

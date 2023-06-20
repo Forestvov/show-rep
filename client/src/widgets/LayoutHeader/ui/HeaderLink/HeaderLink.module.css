@@ -1,0 +1,25 @@
+.link {
+	@apply flex-center-start;
+
+	&__icon {
+		@apply flex-center-center bg-gold-900 rounded-circle;
+
+		width: 28px;
+		height: 28px;
+	}
+
+	&__text {
+		@apply font-semibold text-[15px];
+
+		display: inline-block;
+		margin-left: 9px;
+		padding: 0 10px;
+		border-radius: 32px;
+		background-color: #f7fafe;
+		line-height: 28px;
+	}
+
+	& + & {
+		margin-left: 37px;
+	}
+}

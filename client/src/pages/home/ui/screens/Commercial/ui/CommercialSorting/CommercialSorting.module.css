@@ -1,0 +1,14 @@
+.sorting {
+	@apply flex-center-start text-black-800 font-medium text-[15px];
+
+	svg {
+		margin-right: 9px;
+	}
+
+	span {
+		@apply text-gold-900;
+
+		display: inline-block;
+		margin-left: 5px;
+	}
+}

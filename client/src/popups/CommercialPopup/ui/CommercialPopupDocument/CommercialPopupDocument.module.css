@@ -1,0 +1,29 @@
+.document {
+	@apply relative z-1;
+
+	height: 185px;
+	padding: 14px 24px 14px 14px;
+	background-color: #f7fafe;
+
+	&__icon {
+		@apply relative z-1 bg-white flex-center-center;
+
+		width: 44px;
+		height: 44px;
+		margin-bottom: 27px;
+		border-radius: 4px;
+	}
+
+	&__link {
+		@apply relative z-1 text-black-900 text-[15px] underline;
+
+		line-height: 24px;
+	}
+
+	&__bg {
+		@apply absolute;
+
+		right: 10px;
+		bottom: 11px;
+	}
+}

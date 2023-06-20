@@ -1,0 +1,65 @@
+.form {
+	height: 415px;
+	padding: 41px 26px 26px;
+	border-radius: 14px;
+	background: linear-gradient(156.87deg, #c3dff2 1.62%, #d7eefb 92.01%);
+
+	&__title {
+		@apply font-semibold text-[24px] text-black-800;
+
+		margin-bottom: 46px;
+		line-height: 34px;
+	}
+
+	&__inner {
+		padding: 31px 26px 36px;
+		border-radius: 10px;
+		background: #dff3ff;
+	}
+
+	&__label {
+		@apply font-semibold text-[16px] text-black-800;
+
+		margin-bottom: 24px;
+	}
+
+	&__input {
+		@apply relative;
+
+		margin-bottom: 16px;
+
+		input {
+			width: 100%;
+			height: 53px;
+			padding-right: 140px;
+			padding-left: 16px;
+			border-radius: 8px;
+			background: #fff;
+			color: #8b939f;
+			font-size: 15px;
+		}
+
+		button {
+			@apply absolute btn-primary;
+
+			top: 3px;
+			right: 4px;
+			width: 125px;
+			height: 47px;
+			border-radius: 6px;
+			line-height: 44px;
+		}
+	}
+
+	&__text {
+		@apply text-[14px];
+
+		max-width: 373px;
+		color: #77909e;
+		line-height: 25px;
+
+		a {
+			text-decoration: underline;
+		}
+	}
+}

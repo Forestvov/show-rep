@@ -1,0 +1,11 @@
+.label {
+	height: 58px;
+	padding-left: 25px;
+	border-radius: 8px;
+	background: linear-gradient(0deg, rgb(240 246 254 / 0.4), rgb(240 246 254 / 0.4)), #ebf0f6;
+	line-height: 58px;
+
+	&__title {
+		@apply font-medium text-[18px] text-black-900;
+	}
+}

@@ -1,0 +1,29 @@
+.notification {
+	margin-top: 36px;
+	margin-bottom: 87px;
+
+	&__header {
+		@apply flex-center-between;
+
+		margin-bottom: 15px;
+	}
+
+	&__title {
+		@apply text-black-800 font-medium text-[20px];
+	}
+
+	&__more {
+		@apply flex-center-start text-primary-500 font-medium text-[14px];
+
+		transform: translate(2px, 1px);
+
+		svg {
+			margin-left: 4px;
+			transform: translate(0, 2px);
+		}
+	}
+
+	&__list {
+		@apply grid grid-cols-3 gap-15;
+	}
+}

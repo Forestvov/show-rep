@@ -1,0 +1,12 @@
+.aside {
+	@apply h-screen bg-primary-500 fixed z-2;
+
+	top: 0;
+	width: 581px;
+
+	&__content {
+		width: 344px;
+		margin-left: auto;
+		padding-top: 50px;
+	}
+}

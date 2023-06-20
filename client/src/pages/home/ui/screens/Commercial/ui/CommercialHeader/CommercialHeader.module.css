@@ -1,0 +1,10 @@
+.title {
+	margin-bottom: 14px;
+}
+
+.text {
+	@apply text-[16px] text-black-800;
+
+	margin-bottom: 49px;
+	line-height: 16px;
+}

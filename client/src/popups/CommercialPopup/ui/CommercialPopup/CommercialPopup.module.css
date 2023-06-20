@@ -1,0 +1,28 @@
+.body {
+	padding: 49px 42px 40px 38px;
+
+	&__statuses {
+		margin-bottom: 12px;
+	}
+
+	&__title {
+		margin-bottom: 9px;
+	}
+
+	&__text {
+		@apply text-[15px] text-black-800;
+
+		margin-bottom: 33px;
+		line-height: 24px;
+	}
+
+	&__content {
+		&_item {
+			display: none;
+
+			&.show {
+				display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+.title {
+	@apply font-semibold text-[28px] text-black-800;
+
+	line-height: 28px;
+}

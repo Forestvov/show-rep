@@ -1,0 +1,14 @@
+.label {
+	@apply grid items-center;
+
+	grid-template-columns: 237px 1fr;
+	grid-column-gap: 20px;
+
+	&__name {
+		@apply font-medium text-[15px] text-black-800;
+	}
+
+	&.flexStart {
+		align-items: flex-start;
+	}
+}

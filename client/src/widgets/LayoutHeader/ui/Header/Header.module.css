@@ -1,0 +1,5 @@
+.header {
+	@apply flex justify-end items-end;
+
+	margin-bottom: 116px;
+}

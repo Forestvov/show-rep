@@ -1,0 +1,49 @@
+.navigation {
+	@apply pl-1;
+
+	margin-top: 127px;
+
+	li {
+		& + li {
+			margin-top: 3px;
+		}
+	}
+
+	a,
+	button {
+		@apply flex-center-start font-semibold border-r-4 border-transparent px-4 w-full;
+
+		height: 52px;
+		color: #bec3ff;
+		font-size: 15px;
+		line-height: 52px;
+		transition: 400ms;
+
+		&:hover {
+			border-radius: 5px 0 0 5px;
+			background: rgb(39 52 152 / 0.4);
+		}
+
+		i {
+			flex: 0 0 auto;
+			width: 16px;
+			margin-right: 19px;
+			transform: translateY(-2px);
+		}
+
+		&.order {
+			i {
+				transform: translate(-4px, -1px);
+			}
+		}
+	}
+
+	a {
+		&.active {
+			border-color: #8994e3;
+			border-radius: 5px 0 0 5px;
+			background: rgb(39 52 152 / 0.4);
+			color: #fff;
+		}
+	}
+}

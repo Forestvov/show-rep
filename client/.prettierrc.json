@@ -1,0 +1,28 @@
+{
+	"trailingComma": "es5",
+	"requireConfig": false,
+	"semi": false,
+	"singleQuote": true,
+	"jsxSingleQuote": true,
+	"useTabs": true,
+	"tabWidth": 2,
+	"printWidth": 120,
+	"arrowParens": "avoid",
+	"importOrder": [
+		"<THIRD_PARTY_MODULES",
+		"^@/app/(.*)$",
+		"^@/pages/(.*)$",
+		"^@/widgets/(.*)$",
+		"^@/features/(.*)$",
+		"^@/shared/(.*)$",
+		"^@/popups/(.*)$",
+		"^@/hooks/(.*)$",
+		"^@/utils/(.*)$",
+		"^@/styles/(.*)$",
+		"^../(.*)$",
+		"^./(.*)$",
+		"^(.scss)$"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}

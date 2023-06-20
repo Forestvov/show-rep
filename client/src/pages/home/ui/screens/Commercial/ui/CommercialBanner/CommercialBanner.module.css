@@ -1,0 +1,46 @@
+.banner {
+	position: relative;
+	overflow: hidden;
+	height: 138px;
+	margin-bottom: 49px;
+	padding: 28px 39px;
+	border-radius: 14px;
+	background-color: #9299a2;
+
+	&__title {
+		@apply font-semibold text-white text-[34px];
+
+		max-width: 400px;
+		line-height: 41px;
+	}
+
+	&__close {
+		@apply absolute flex-center-center z-1;
+
+		top: 12px;
+		right: 12px;
+		width: 28px;
+		height: 28px;
+		border-radius: 50%;
+		background: rgb(255 255 255 / 0.2);
+		backdrop-filter: blur(3.5px);
+
+		&:hover {
+			svg {
+				transform: rotate(90deg);
+			}
+		}
+
+		svg {
+			transition: 400ms;
+		}
+	}
+
+	&__image {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		border-top-right-radius: 14px;
+		border-bottom-right-radius: 14px;
+	}
+}

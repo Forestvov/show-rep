@@ -1,0 +1,24 @@
+.tabs {
+	&__top {
+		@apply flex-center-between;
+
+		align-items: flex-start;
+	}
+
+	&__header {
+		@apply flex-center-start font-medium text-gray-300 text-[15px];
+
+		gap: 52px;
+
+		button {
+			@apply border-b-2 border-transparent;
+
+			padding-bottom: 13px;
+			transition: 400ms;
+
+			&:global(.current-tab) {
+				@apply text-black-800 border-gold-900;
+			}
+		}
+	}
+}

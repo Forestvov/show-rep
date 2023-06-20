@@ -1,0 +1,32 @@
+.body {
+	position: relative;
+	display: none;
+	margin-top: 32px;
+
+	&.show {
+		display: block;
+	}
+}
+
+.navigation {
+	@apply absolute transform-y-center bg-primary-500 flex-center-center z-2;
+
+	display: block;
+	flex: 0 0 auto;
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+	transition: 300ms ease-in;
+
+	&__left {
+		left: -19px;
+
+		svg {
+			transform: rotate(180deg);
+		}
+	}
+
+	&__right {
+		right: -19px;
+	}
+}

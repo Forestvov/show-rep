@@ -1,0 +1,13 @@
+.layout {
+	@apply relative bg-primary-500;
+
+	padding-top: 6px;
+	padding-right: 6px;
+}
+
+.main {
+	@apply h-full bg-white rounded-tl-xxl rounded-tr-xxl;
+
+	margin-left: 581px;
+	padding: 49px 0 0 89px;
+}

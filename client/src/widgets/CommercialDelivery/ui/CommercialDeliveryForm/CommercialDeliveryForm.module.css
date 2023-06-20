@@ -1,0 +1,49 @@
+.form {
+	max-width: 758px;
+
+	&__space {
+		margin-bottom: 38px;
+	}
+
+	&__trio {
+		display: grid;
+		grid-template-columns: 126px 138px 218px;
+		grid-column-gap: 10px;
+	}
+
+	&__btns {
+		button + button {
+			margin-top: 12px;
+		}
+	}
+
+	&__btn {
+		@apply flex-center-center btn-primary;
+
+		height: 52px;
+		line-height: 49px;
+
+		&:hover {
+			svg path {
+				stroke: #071689;
+			}
+		}
+
+		span {
+			margin-left: 17px;
+		}
+
+		svg {
+			margin-left: 5.2px;
+			transform: translateY(1.9px);
+
+			path {
+				transition: all 0.3s ease-in-out;
+			}
+		}
+	}
+
+	&__body {
+		margin-bottom: 70px;
+	}
+}
